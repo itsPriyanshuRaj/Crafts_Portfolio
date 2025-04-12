@@ -2,6 +2,17 @@ body {
    
     color: #e0e0e0; /* Light text */
 }
+
+.about{
+    font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.social-links,a{
+    color: black;
+}
 .card {
     border: none;
     border-radius: 10px;
