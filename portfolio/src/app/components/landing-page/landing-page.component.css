@@ -1,6 +1,5 @@
-body {
-   
-    color:azure; 
+.container-fluid {
+    background-color:whitesmoke; 
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: 300;
