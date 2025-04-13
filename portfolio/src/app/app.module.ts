@@ -7,12 +7,14 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { HeaderComponent } from './components/header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FooterComponent } from './components/footer/footer.component';
+import { AboutComponent } from './components/about/about.component';
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
    HeaderComponent,
    FooterComponent,
+   AboutComponent,
   ],
   imports: [
     BrowserModule,

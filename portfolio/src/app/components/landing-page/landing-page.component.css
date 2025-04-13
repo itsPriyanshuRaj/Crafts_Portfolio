@@ -1,13 +1,16 @@
 .container-fluid {
-    background-color:whitesmoke; 
+    
+    /* background-color:whitesmoke;  */
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;/* Light text */
+
 }
 
-.about{
-
+.main-box{
+    /* background-image: url('../../../assets/img/'); */
+    background-size: cover;
 }
 
 .social-links,a{
