@@ -1,0 +1,35 @@
+.section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2c3e50; /* Dark heading color */
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.category-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #34495e; /* Medium dark color */
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.tech-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem; /* Consistent height for icons */
+    margin-bottom: 0.75rem; /* Space between items */
+    border-radius: 0.5rem; /* Rounded corners */
+    background-color: #ffffff;  /* white background for icons */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Subtle shadow */
+}
+.tech-item img {
+    max-height: 100%; /* Ensure image doesn't overflow */
+    max-width: 100%;
+    object-fit: contain; /* maintain aspect ratio */
+}
+.description {
+    font-size: 0.875rem;
+    color: #6c757d; /* Gray description text */
+    text-align: center;
+    margin-top: 1.5rem;
+}
