@@ -1,0 +1,17 @@
+.navbar-custom {
+  background-color: #fff !important; /* White background */
+  border-bottom: none !important;   /* Remove bottom border */
+  height: 80px;                     /* Increased height */
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.05); /* optional subtle shadow */
+}
+
+.navbar-custom .nav-link {
+  color: #000 !important; /* Ensure links are visible on white */
+  font-size: 1.1rem;
+  padding: 0 15px;
+}
+
+.navbar-custom .navbar-brand {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
