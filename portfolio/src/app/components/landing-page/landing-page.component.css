@@ -39,3 +39,47 @@
 .card-text {
     font-size: 0.9rem;
 }
+
+
+.blue-bg {
+  width: 120px;
+  height: 120px;
+  background-color: #007bff; /* Bootstrap primary blue */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -40%);
+  z-index: 1; /* Behind image */
+  border-radius: 8px; /* optional, if you want rounded */
+}
+
+.profile-img {
+  position: relative;
+  z-index: 2; /* In front of blue bg */
+  max-width: 250px;
+  border-radius: 10px; /* optional */
+}
+
+
+
+.tech-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem; /* Consistent height for icons */
+    margin-bottom: 0.75rem; /* Space between items */
+    border-radius: 0.5rem; /* Rounded corners */
+    background-color: #ffffff;  /* white background for icons */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Subtle shadow */
+}
+.tech-item img {
+    max-height: 100%; /* Ensure image doesn't overflow */
+    max-width: 100%;
+    object-fit: contain; /* maintain aspect ratio */
+}
+.description {
+    font-size: 0.875rem;
+    color: #6c757d; /* Gray description text */
+    text-align: center;
+    margin-top: 1.5rem;
+}
