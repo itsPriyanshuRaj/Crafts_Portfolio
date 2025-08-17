@@ -4,29 +4,24 @@
         <p class="lead">Welcome to my blog domain where I share personal stories about things I've learned</p>
     </div>
 
-    <div class="conatiner">
-        <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="card">
-                        <div class="card-img-wrapper">
-                            <img src="https://via.placeholder.com/800x400" class="card-img-top" alt="Blog Post Image">
-                        </div>
-                        <div class="card-body">
-                            <h2 class="card-title h4">How to Run Localhost on Your Mobile Device Using Ngrok</h2>
-                            <p class="card-text">
-                                Learn how to run and test your web application changes without deploying using Ngrok -
-                                a globally distributed reverse proxy that creates secure tunnels to your web app.  All-in-one
-                                API gateway, Kubernetes Ingress, DDoS protection, firewall, and global load balancing as a service.
-                            </p>
-                        </div>
-                        <div class="card-footer d-flex justify-content-between align-items-center">
-                            <small class="text-muted">Aug 6, 2024</small>
-                            <a href="#" class="btn btn-link">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="container my-5">
+  <h2 class="text-center mb-4">📝 My Blogs</h2>
+  <div class="row g-4">
+    <div class="col-md-4" *ngFor="let blog of blogs">
+      <div class="card h-100 shadow-sm">
+        <img *ngIf="blog.coverImage" [src]="blog.coverImage" class="card-img-top" alt="{{blog.title}}">
+        <div class="card-body">
+          <h5 class="card-title">{{ blog.title }}</h5>
+          <p class="card-text">{{ blog.brief | slice:0:100 }}...</p>
+          <a [href]="'https://' + USERNAME + '.hashnode.dev/' + blog.slug"
+             target="_blank"
+             class="btn btn-primary">
+            Read More
+          </a>
         </div>
+      </div>
     </div>
+  </div>
+</div>
+
 </div>

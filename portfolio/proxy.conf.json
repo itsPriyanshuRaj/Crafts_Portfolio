@@ -1,0 +1,8 @@
+{
+  "/hashnode": {
+    "target": "https://api.hashnode.com",
+    "secure": true,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}
